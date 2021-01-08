@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tapin.Web", "Tapin.Web\Tapin.Web.csproj", "{969A24DA-AE16-4D98-B339-DC0715231A62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59A0A4DF-22E9-4B26-B94B-6422F2910EBC} = {59A0A4DF-22E9-4B26-B94B-6422F2910EBC}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tapin.Data", "Tapin.Data\Tapin.Data.csproj", "{440599B9-4AF4-488C-8045-6FE379A947C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tapin.Model", "Tapin.Model\Tapin.Model.csproj", "{59A0A4DF-22E9-4B26-B94B-6422F2910EBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tapin.SDK", "Tapin.SDK\Tapin.SDK.csproj", "{15BBDD2B-0B1F-4F3C-BC77-8EC49C6FCDC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tapin.Services", "Tapin.Services\Tapin.Services.csproj", "{01EB601F-EF09-46F6-A704-2786B5A2583C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tapin.MVC", "Tapin.MVC\Tapin.MVC.csproj", "{67535044-AA71-4933-BC59-4C2F30B7E49D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{969A24DA-AE16-4D98-B339-DC0715231A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969A24DA-AE16-4D98-B339-DC0715231A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969A24DA-AE16-4D98-B339-DC0715231A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969A24DA-AE16-4D98-B339-DC0715231A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440599B9-4AF4-488C-8045-6FE379A947C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440599B9-4AF4-488C-8045-6FE379A947C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440599B9-4AF4-488C-8045-6FE379A947C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440599B9-4AF4-488C-8045-6FE379A947C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A0A4DF-22E9-4B26-B94B-6422F2910EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A0A4DF-22E9-4B26-B94B-6422F2910EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A0A4DF-22E9-4B26-B94B-6422F2910EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A0A4DF-22E9-4B26-B94B-6422F2910EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BBDD2B-0B1F-4F3C-BC77-8EC49C6FCDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BBDD2B-0B1F-4F3C-BC77-8EC49C6FCDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BBDD2B-0B1F-4F3C-BC77-8EC49C6FCDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BBDD2B-0B1F-4F3C-BC77-8EC49C6FCDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EB601F-EF09-46F6-A704-2786B5A2583C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EB601F-EF09-46F6-A704-2786B5A2583C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EB601F-EF09-46F6-A704-2786B5A2583C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EB601F-EF09-46F6-A704-2786B5A2583C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67535044-AA71-4933-BC59-4C2F30B7E49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67535044-AA71-4933-BC59-4C2F30B7E49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67535044-AA71-4933-BC59-4C2F30B7E49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67535044-AA71-4933-BC59-4C2F30B7E49D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CA3BD43-12E5-48C5-A7D0-F8E853F515B0}
+	EndGlobalSection
+EndGlobal
